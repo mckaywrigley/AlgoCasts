@@ -23,4 +23,15 @@ function reverseInt(n) {
   return parseInt(reversed);
 }
 
+// Solution 1 - concise
+// function reverseInt(n) {
+//   let reversed = n
+//     .toString()
+//     .split("")
+//     .reverse()
+//     .join("");
+
+//   return parseInt(reversed) * Math.sign(n);
+// }
+
 module.exports = reverseInt;
